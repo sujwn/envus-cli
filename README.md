@@ -1,10 +1,10 @@
 # envus-cli
 
 [![npm version](https://img.shields.io/npm/v/envus-cli)](https://www.npmjs.com/package/envus-cli)
-[![license](https://img.shields.io/npm/l/envus-cli)](https://github.com/sujwn/envus-cli)
+![license](https://img.shields.io/npm/l/envus-cli)
 [![envus version](https://img.shields.io/npm/v/envus)](https://www.npmjs.com/package/envus)
 
-\*A CLI tool for **envus v2.0.0\***
+> A CLI tool for **envus v2.0.0**
 
 A lightweight command-line tool for generating validated configuration files from `.env.example` using **envus v2.0.0**.
 
@@ -17,8 +17,8 @@ A lightweight command-line tool for generating validated configuration files fro
 - Generates `config/index.js` or `config/index.ts` automatically
 - Supports grouping via:
 
-  - **Explicit groups** (`# @group: app`)
-  - **Pattern groups** (`--group pattern` → prefixes such as `DB_`, `APP_`)
+	- **Explicit groups** (`# @group: app`)
+	- **Pattern groups** (`--group pattern` → prefixes such as `DB_`, `APP_`)
 
 - Flat mode (`--flat`) to disable grouping but still validate variables
 - Enum detection (`A|B|C`)
