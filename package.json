@@ -1,6 +1,6 @@
 {
 	"name": "envus-cli",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "CLI scaffolder for envus config from .env.example",
 	"main": "dist/cli.js",
 	"types": "dist/index.d.ts",
