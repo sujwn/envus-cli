@@ -1,0 +1,36 @@
+{
+	"name": "envus-cli",
+	"version": "1.0.0",
+	"description": "CLI scaffolder for envus config from .env.example",
+	"main": "dist/cli.js",
+	"types": "dist/index.d.ts",
+	"bin": {
+		"envus": "./dist/cli.js",
+		"envus-cli": "./dist/cli.js"
+	},
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"clean": "rimraf dist",
+		"prepare": "npm run build",
+		"start": "node ./dist/cli.js",
+		"test": "vitest",
+    "test:watch": "vitest --watch"
+	},
+	"keywords": [
+		"env",
+		"envus",
+		"cli",
+		"config",
+		"scaffold"
+	],
+	"license": "MIT",
+	"dependencies": {
+		"commander": "^11.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^20.0.0",
+		"rimraf": "^5.0.0",
+		"typescript": "^5.5.0",
+		"vitest": "^4.0.15"
+	}
+}
