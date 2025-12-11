@@ -14,7 +14,7 @@
 		"prepare": "npm run build",
 		"start": "node ./dist/cli.js",
 		"test": "vitest",
-    "test:watch": "vitest --watch"
+		"test:watch": "vitest --watch"
 	},
 	"keywords": [
 		"env",
