@@ -1,10 +1,9 @@
 # envus-cli
 
 [![npm version](https://img.shields.io/npm/v/envus-cli)](https://www.npmjs.com/package/envus-cli)
-![license](https://img.shields.io/npm/l/envus-cli)
 [![envus version](https://img.shields.io/npm/v/envus)](https://www.npmjs.com/package/envus)
 
-> A CLI tool for **envus v2.0.0**
+> A CLI tool for **[envus](https://www.npmjs.com/package/envus)**
 
 A lightweight command-line tool for generating validated configuration files from `.env.example` using **envus v2.0.0**.
 
